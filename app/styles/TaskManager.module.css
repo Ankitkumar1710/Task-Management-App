@@ -1,0 +1,133 @@
+/* styles/TaskManager.module.css */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input,
+  .task-form textarea,
+  .task-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .task-form button {
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-form button:hover {
+    background-color: #005bb5;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .task-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .task-item p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .task-item button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item button:hover {
+    background-color: #ccc;
+  }
+  
+  .task-item h3.completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .completed-section {
+    margin-top: 20px;
+  }
+  
+  .completed-section h3 {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Priority-based styles */
+  .task-high {
+    border-left: 5px solid #ff4d4d;
+  }
+  
+  .task-medium {
+    border-left: 5px solid #ffa500;
+  }
+  
+  .task-low {
+    border-left: 5px solid #90ee90;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .task-form input,
+    .task-form textarea,
+    .task-form select,
+    .task-form button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  
+    .task-item {
+      font-size: 0.9rem;
+    }
+  }
+  

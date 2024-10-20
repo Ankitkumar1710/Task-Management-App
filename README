@@ -1,1 +1,41 @@
-https://github.com/Ankitkumar1710/Task-Management-App.git
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+# Task Management App
+
+A simple and colorful task management application that allows users to create, edit, delete, and organize tasks based on their priorities. This application utilizes React for the frontend and local storage to persist data between page reloads.
+
+## Features
+
+- **Add, Edit, and Delete Tasks**: Users can create new tasks, edit existing ones, or delete tasks they no longer need.
+- **Priority Levels**: Tasks can be assigned high, medium, or low priority, which determines their order in the task list.
+- **Search Functionality**: Users can filter tasks by title or description using a search bar.
+- **Local Storage**: The app saves tasks to local storage, allowing users to retrieve their tasks even after refreshing the page.
+- **Dynamic Sorting**: Tasks are dynamically sorted by priority, displaying high priority tasks at the top and completed tasks at the bottom.
+- **Colorful and Responsive UI**: The app features a vibrant design that enhances user experience.
+
+## Setup Instructions
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Ankitkumar1710/task-management-app.git
+   cd task-management-app
